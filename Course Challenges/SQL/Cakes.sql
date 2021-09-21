@@ -1,1 +1,1 @@
-select * from cakes order by calories  DESC limit 3
+select * from cakes order by calories  ASC limit 3
