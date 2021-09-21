@@ -1,0 +1,1 @@
+select * from apartments where price > AVG , status "not rented" order by price
