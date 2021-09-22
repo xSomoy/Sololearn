@@ -1,1 +1,1 @@
-select * from apartments where price > AVG and status="not rented" order by price
+select price > AVG(price) from apartments where status ="not rented" order by price
