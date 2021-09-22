@@ -1,1 +1,3 @@
-select price > AVG(price) from apartments where status ="not rented" order by price
+SELECT * FROM Apartments
+WHERE price > ( SELECT AVG(price)FROM Apartments) and status in ('Not rented')
+ORDER BY price;
